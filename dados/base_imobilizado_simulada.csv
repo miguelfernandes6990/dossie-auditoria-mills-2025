@@ -1,0 +1,40 @@
+# Dossiê de Auditoria Independente - Mills S.A. (2025)
+
+**Disciplina:** Auditoria Contábil - UnB  
+**Aluno / Matrícula:** 222036963  
+**Data de Entrega:** 25/10/2026  
+**Companhia Auditada:** Mills Locação, Serviços e Logística S.A. (MILS3)  
+
+---
+
+## 📌 Visão Geral do Repositório
+Este repositório contém a documentação completa dos papéis de trabalho, programa de auditagem, análises de risco e simulação de amostragem contábil da Mills S.A. referente ao exercício de 2025, em estrita observância à NBC TA Estrutura Conceitual e às normas NBC TA 200 a 600.
+
+---
+
+## 🗂️ Estrutura do Repositório
+* `README.md`: Instruções gerais e prestação de contas das fontes.
+* `DOSSIE_AUDITORIA_MILLS_2025.pdf`: Dossiê consolidado com todos os Papéis de Trabalho.
+* `MATRIZ_COBERTURA_NBC_TA.xlsx`: Matriz de mapeamento de todas as normas aplicadas.
+* `FONTES_E_REGISTROS_ACESSO.csv`: Log detalhado com links, datas e horas de acesso às fontes públicas (CVM, B3 e RI).
+* `scripts/gerar_base_simulada.py`: Script Python utilizado para a geração estocástica da base analítica de 500.000 linhas do Imobilizado.
+* `dados/`: Arquivos contendo a base sintética e o dicionário de dados do Ativo Imobilizado.
+
+---
+
+## 🔗 Relação das Fontes Utilizadas e Logs de Acesso
+
+| Portal / Sistema | Endereço Eletrônico (URL) | Documento Consultado | Data / Hora | Conteúdo / Extração |
+| :--- | :--- | :--- | :--- | :--- |
+| **CVM ENET** | https://www.rad.cvm.gov.br/ENETWEB/frmGerenciaPaginaFRE.aspx?NumeroSequencialDocumento=155467 | DFP 2025 V1 | 21/10/2026 19:21 BRT | DRE Consolidada 2025 |
+| **CVM ENET** | https://www.rad.cvm.gov.br/ENETWEB/frmGerenciaPaginaFRE.aspx?NumeroSequencialDocumento=145610 | DFP 2024 V1 | 21/10/2026 19:31 BRT | Balanço Patrimonial Ativo 2024 |
+| **B3** | https://sistemaswebb3-listados.b3.com.br/listedCompaniesPage/main/22012/MILS/overview | Perfil MILS3 | 21/10/2026 19:19 BRT | CNPJ 27.093.558/0001-15 e Cadastros |
+| **RI Mills** | https://ri.b3.com.br/pt-br/servicos-aos-investidores/central-de-downloads/ | Central de Downloads | 21/10/2026 19:12 BRT | Relatório em PDF DF 2025 |
+
+---
+
+## 🛠️ Como Reproduzir a Base Sintética (500.000 linhas)
+1. Certifique-se de ter o Python 3.x instalado com as bibliotecas `pandas` e `numpy`.
+2. Execute o comando:
+   ```bash
+   python scripts/gerar_base_simulada.py
