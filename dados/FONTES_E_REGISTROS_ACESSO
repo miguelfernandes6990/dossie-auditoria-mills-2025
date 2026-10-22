@@ -1,0 +1,7 @@
+```csv:Log de Fontes de Acesso CSV:FONTES_E_REGISTROS_ACESSO.csv
+fonte_sistema,url_acesso,documento_consultado,data_hora_acesso,dados_extraidos_pagina
+CVM ENET,https://www.rad.cvm.gov.br/ENETWEB/frmGerenciaPaginaFRE.aspx?NumeroSequencialDocumento=155467,DFP 2025 - Mills (V1),2026-10-21 19:21:00,DRE Consolidada 2025 (Receita R$ 1.837.835 mil)
+CVM ENET,https://www.rad.cvm.gov.br/ENETWEB/frmGerenciaPaginaFRE.aspx?NumeroSequencialDocumento=145610,DFP 2024 - Mills (V1),2026-10-21 19:31:00,Balanço Patrimonial Ativo Consolidado 2024 (Ativo Total R$ 3.869.243 mil)
+B3 Empresas,https://sistemaswebb3-listados.b3.com.br/listedCompaniesPage/main/22012/MILS/overview,Perfil da Companhia MILS3,2026-10-21 19:19:00,CNPJ 27.093.558/0001-15 / Razão Social
+B3 / RI Mills,https://ri.b3.com.br/pt-br/servicos-aos-investidores/central-de-downloads/,Central de Downloads RI 2025,2026-10-21 19:12:00,Relatório em PDF Demonstrações Financeiras 2025
+``` eof
